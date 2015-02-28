@@ -62,6 +62,13 @@ projects[pathauto][download][type] = git
 projects[pathauto][download][url] = http://git.drupal.org/project/pathauto.git
 projects[pathauto][download][branch] = 7.x-1.x
 
+projects[wysiwyg][type] = module
+projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][version] = 2.2
+projects[wysiwyg][download][type] = git
+projects[wysiwyg][download][url] = http://git.drupal.org/project/wysiwyg.git
+projects[wysiwyg][download][branch] = 7.x-2.x
+
 ; Themes =========================================================
 projects[zen][type] = theme
 projects[zen][version] = 5.5
