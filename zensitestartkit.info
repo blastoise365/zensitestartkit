@@ -1,0 +1,8 @@
+name = Zensite startkit instalation profile
+description = Profile with pre-filled install informations and with essential modules enabled.
+core = 7.x
+dependencies[] = block
+dependencies[] = dblog
+
+; Contrib modules
+dependencies[] = admin_menu
