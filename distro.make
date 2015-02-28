@@ -3,7 +3,7 @@ core = 7.x
 
 ; Drupal core =========================================================
 projects[drupal][type] = core
-projects[drupal][version] = "7"
+projects[drupal][version] = "7.34"
 
 ; Contrib modules =========================================================
 projects[admin_menu][type] = module
