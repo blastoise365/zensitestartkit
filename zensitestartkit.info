@@ -15,6 +15,7 @@ dependencies[] = taxonomy
 
 ; Contrib modules
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = libraries
