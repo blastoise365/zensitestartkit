@@ -3,7 +3,7 @@ core = 7.x
 
 ; Drupal core =========================================================
 projects[drupal][type] = core
-projects[drupal][version] = "7.34"
+projects[drupal][version] = "7.37"
 
 ; Contrib modules =========================================================
 projects[admin_menu][type] = module
@@ -15,7 +15,7 @@ projects[admin_menu][download][branch] = 7.x-3.x
 
 projects[ctools][type] = module
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.6
+projects[ctools][version] = 1.7
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
 projects[ctools][download][branch] = 7.x-1.x
@@ -43,14 +43,14 @@ projects[module_filter][download][branch] = 7.x-2.x
 
 projects[views][type] = module
 projects[views][subdir] = contrib
-projects[views][version] = 3.10
+projects[views][version] = 3.11
 projects[views][download][type] = git
 projects[views][download][url] = http://git.drupal.org/project/views.git
 projects[views][download][branch] = 7.x-3.x
 
 projects[token][type] = module
 projects[token][subdir] = contrib
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 projects[token][download][type] = git
 projects[token][download][url] = http://git.drupal.org/project/token.git
 projects[token][download][branch] = 7.x-1.x
