@@ -9,14 +9,14 @@
 /**
  * Implements hook_install().
  *
- * Run the hook_install() function from the minimal
+ * Run the hook_install() function from the standard
  * profile as part of this profile.
  */
  
 function zensitestartkit_install() {
-  // Utilize the hook_install() implementation from the minimal profile.
-  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
-  minimal_install();
+  // Utilize the hook_install() implementation from the standard profile.
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
   
   // Enable the administration theme.
   $admin_theme = 'seven';
